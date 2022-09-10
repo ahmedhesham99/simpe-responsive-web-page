@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Food Supplements</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+<header>
+
+<nav >     <a href="index.html"> <img src="logo4.png" width="150px" height="200px" > </a>      
+
+<div class="links" id="links"> 
+  <i class="far fa-times-circle" onclick="hidemenu()"></i>
+  <ul> 
+    <li>  <a href=""> Home </a> </li>  
+    <li>  <a href=""> About</a> </li>
+    <li>  <a href=""> Our Products</a> </li>
+    <li>  <a href=""> Contact</a> </li>
+</ul> 
+
+</div>
+<i class="fas fa-bars" onclick="showmenu()"></i>
+
+</nav>
+
+<div class="maintext">   
+  <h1>   Supplements Center </h1>  
+  <p>    We Serve You From Nature  </p>
+  <a href="" id="link">  Click here for more </a>
+</div>
+
+</header>
+
+<script>
+var navlinks=document.getElementById("links");
+function showmenu(){   navlinks.style.right="0";  }
+function hidemenu(){   navlinks.style.right="-200px";  }
+</script>
+
+
+</body>
+</html>
